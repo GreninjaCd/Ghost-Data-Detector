@@ -1,0 +1,305 @@
+{
+  "evidence_04": [
+    {
+      "system_id": "account_service",
+      "resource_id": "account_5762",
+      "category": "USER_PROFILE",
+      "subject_reference": "user_11",
+      "identifiers": [
+        "haruka.s1838@zoho.com",
+        "+81 90 7610 2507",
+        "Haruka Sato"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": true,
+      "details": "Active account profile for Haruka Sato in admin portal."
+    },
+    {
+      "system_id": "support_platform",
+      "resource_id": "support_9538",
+      "category": "SUPPORT_MESSAGE",
+      "subject_reference": "user_11",
+      "identifiers": [
+        "haruka.s1838@zoho.com"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": true,
+      "details": "Support ticket CS-8538 referenced on customer profile."
+    }
+  ],
+  "evidence_09": [
+    {
+      "system_id": "search_service",
+      "resource_id": "search_428",
+      "category": "SEARCH_INDEX_ENTRY",
+      "subject_reference": "user_13",
+      "identifiers": [
+        "g.silva76@gmail.com",
+        "Gabriel Silva"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": true,
+      "details": "Search index hit for Gabriel Silva (search_428)."
+    }
+  ],
+  "evidence_14": [
+    {
+      "system_id": "integration_service",
+      "resource_id": "data_flow_1121",
+      "category": "DATA_FLOW",
+      "subject_reference": "user_14",
+      "identifiers": [
+        "jain.aditi@gmail.com"
+      ],
+      "state": "ACTIVE",
+      "pii_exposed": true,
+      "details": "Active continuous connector data_flow_1121 targeting customer_analytics_warehouse."
+    },
+    {
+      "system_id": "integration_service",
+      "resource_id": "data_flow_9846",
+      "category": "DATA_FLOW",
+      "subject_reference": null,
+      "identifiers": [
+        "lucia-torres@gmail.com"
+      ],
+      "state": "ACTIVE",
+      "pii_exposed": true,
+      "details": "Active continuous connector data_flow_9846 targeting customer_analytics_warehouse."
+    }
+  ],
+  "evidence_18": [
+    {
+      "system_id": "export_service",
+      "resource_id": "export_1842",
+      "category": "USER_EXPORT",
+      "subject_reference": "user_18",
+      "identifiers": [
+        "ingrid.dahl@outlook.com",
+        "Ingrid Dahl"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": true,
+      "details": "Customer statement document NST-2026-0718-1842 containing order and delivery PII."
+    }
+  ],
+  "evidence_19": [
+    {
+      "system_id": "analytics_platform",
+      "resource_id": "analytics_7438",
+      "category": "ANALYTICS_PROFILE",
+      "subject_reference": "user_20",
+      "identifiers": [
+        "darwish.omar@icloud.com",
+        "Omar Darwish"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": true,
+      "details": "Identifiable analytics profile for Omar Darwish."
+    }
+  ],
+  "evidence_23": [
+    {
+      "system_id": "export_service",
+      "resource_id": "export_1260",
+      "category": "USER_EXPORT",
+      "subject_reference": "user_18",
+      "identifiers": [
+        "ingrid.dahl@outlook.com"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": true,
+      "details": "Ready customer export zip package customer_export_1260.zip."
+    }
+  ],
+  "evidence_27": [
+    {
+      "system_id": "legal_retention_service",
+      "resource_id": "legal_hold_user_08",
+      "category": "LEGAL_HOLD_RECORD",
+      "subject_reference": "user_08",
+      "identifiers": [
+        "ORD-20264118"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": false,
+      "details": "Disputed order tax retention ORD-20264118 retained until 2033."
+    },
+    {
+      "system_id": "legal_retention_service",
+      "resource_id": "legal_hold_user_12",
+      "category": "LEGAL_HOLD_RECORD",
+      "subject_reference": "user_12",
+      "identifiers": [
+        "ORD-20264207"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": false,
+      "details": "Disputed order tax retention ORD-20264207 retained until 2033."
+    },
+    {
+      "system_id": "legal_retention_service",
+      "resource_id": "legal_hold_user_17",
+      "category": "LEGAL_HOLD_RECORD",
+      "subject_reference": "user_17",
+      "identifiers": [
+        "ORD-20264319"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": false,
+      "details": "Disputed order tax retention ORD-20264319 retained until 2033."
+    },
+    {
+      "system_id": "legal_retention_service",
+      "resource_id": "legal_hold_user_21",
+      "category": "LEGAL_HOLD_RECORD",
+      "subject_reference": "user_21",
+      "identifiers": [
+        "ORD-20264402"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": false,
+      "details": "Disputed order tax retention ORD-20264402 retained until 2033."
+    },
+    {
+      "system_id": "legal_retention_service",
+      "resource_id": "legal_hold_user_24",
+      "category": "LEGAL_HOLD_RECORD",
+      "subject_reference": "user_24",
+      "identifiers": [
+        "ORD-20264511"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": false,
+      "details": "Disputed order tax retention ORD-20264511 retained until 2033."
+    },
+    {
+      "system_id": "legal_retention_service",
+      "resource_id": "legal_hold_user_29",
+      "category": "LEGAL_HOLD_RECORD",
+      "subject_reference": "user_29",
+      "identifiers": [
+        "ORD-20264600"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": false,
+      "details": "Disputed order tax retention ORD-20264600 retained until 2033."
+    }
+  ],
+  "evidence_28": [
+    {
+      "system_id": "support_platform",
+      "resource_id": "support_1034",
+      "category": "SUPPORT_MESSAGE",
+      "subject_reference": "user_22",
+      "identifiers": [
+        "kagyeman8947@fastmail.com",
+        "Kofi Agyeman"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": true,
+      "details": "Support conversation CS-5034 containing requester details."
+    }
+  ],
+  "evidence_32": [
+    {
+      "system_id": "backup_service",
+      "resource_id": "backup_9287",
+      "category": "BACKUP_ARCHIVE",
+      "subject_reference": "user_16",
+      "identifiers": [
+        "areed1433@gmail.com"
+      ],
+      "state": "ACTIVE",
+      "pii_exposed": true,
+      "details": "Customer platform archive backup_9287 in eu-west-1 restorable."
+    }
+  ],
+  "evidence_37": [
+    {
+      "system_id": "security_service",
+      "resource_id": "audit_record_003",
+      "category": "SECURITY_AUDIT_LOG",
+      "subject_reference": "user_03",
+      "identifiers": [
+        "oliver-bennett@gmail.com"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": false,
+      "details": "Compliance journal audit_record_003: Account closure recorded."
+    }
+  ],
+  "evidence_42": [
+    {
+      "system_id": "identity_service",
+      "resource_id": "tombstone_17",
+      "category": "ACCOUNT_TOMBSTONE",
+      "subject_reference": "user_17",
+      "identifiers": [
+        "user_17"
+      ],
+      "state": "REDACTED",
+      "pii_exposed": false,
+      "details": "Retained customer key user_17 with no direct personal identifiers."
+    }
+  ],
+  "evidence_46": [
+    {
+      "system_id": "object_storage",
+      "resource_id": "object_19",
+      "category": "SUPPORT_ATTACHMENT",
+      "subject_reference": "user_07",
+      "identifiers": [
+        "priya.raman@gmail.com"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": true,
+      "details": "Object storage attachment delivery_confirmation_19.pdf."
+    }
+  ],
+  "evidence_55": [
+    {
+      "system_id": "security_service",
+      "resource_id": "audit_record_003",
+      "category": "SECURITY_AUDIT_LOG",
+      "subject_reference": "user_03",
+      "identifiers": [
+        "oliver-bennett@gmail.com"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": false,
+      "details": "Compliance journal extract for audit_record_003."
+    }
+  ],
+  "evidence_58": [
+    {
+      "system_id": "support_platform",
+      "resource_id": "support_001",
+      "category": "SUPPORT_ATTACHMENT",
+      "subject_reference": "user_07",
+      "identifiers": [
+        "priya.raman@gmail.com",
+        "Priya Raman",
+        "+91 98765 73142"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": true,
+      "details": "Delivery address correction request document CS-4827 / support_001."
+    }
+  ],
+  "evidence_60": [
+    {
+      "system_id": "marketing_platform",
+      "resource_id": "marketing_001",
+      "category": "MARKETING_PROFILE",
+      "subject_reference": "user_09",
+      "identifiers": [
+        "sj.park@naver.com",
+        "kwame-mensah@proton.me"
+      ],
+      "state": "PRESENT",
+      "pii_exposed": true,
+      "details": "Live marketing audience profile marketing_001."
+    }
+  ]
+}

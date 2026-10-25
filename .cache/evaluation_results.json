@@ -1,0 +1,9 @@
+{
+  "total_cases": 32,
+  "status_accuracy": 0.8438,
+  "avg_step_precision": 0.7411,
+  "avg_step_recall": 0.5414,
+  "avg_step_f1": 0.6094,
+  "sequence_accuracy": 0.1875,
+  "elapsed_seconds": 0.2
+}
